@@ -1,0 +1,16 @@
+.todo-title {
+	flex-grow: 1;
+}
+
+.actions {
+	margin-right: 5px;
+}
+
+.done .todo-title {
+	text-decoration: line-through;
+}
+
+.important .todo-title {
+	color: coral;
+	font-weight: bold;
+}
